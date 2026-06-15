@@ -16,18 +16,15 @@ The study involves building predictive models using Multiple Linear Regression (
 
 ## Project Structure
 
-
-## Visualisation:
+## Visualisation
 
 ### Random Forest Model
-rf_model.png
+![RF Plot](rf_model.png)
 *Figure 1: Random Forest Predictions vs Actual Values*
 
 ### Multiple Linear Regression Model
-mlr_model.png
+![MLR Plot](mlr_model.png)
 *Figure 2: Multiple Linear Regression Predictions vs Actual Values*
-
-
 
 ## Methodology
 
