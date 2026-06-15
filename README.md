@@ -10,27 +10,17 @@ This project compares the performance of two regression models, Multiple Linear 
 
 ## Goal
 
-- Build predictive models using MLR and RF  
-- Evaluate performance using Root Mean Squared Error (RMSE)  
-- Compare model accuracy  
-- Identify methods to improve performance  
-
----
-
-## Dataset
-
-The dataset is located in the `data/` folder and contains features such as:
-
-- Property size  
-- Number of rooms  
-- Other housing attributes  
+The study involves building predictive models using Multiple Linear Regression (MLR) and Random Forest (RF) techniques. The performance of these models is then evaluated using Root Mean Squared Error (RMSE) as the main metric. After assessing each model, their accuracy levels are compared to determine which performs better. Finally, different methods and approaches are identified to further improve overall model performance.
 
 ---
 
 ## Project Structure
 
+## Visualisation:
+--
 
----
+<img src="images/RF model.png" width="500">
+
 
 ## Methodology
 
@@ -60,9 +50,7 @@ Observations:
   - RF: ~12%  
 
 MLR performed better, suggesting a mostly linear relationship in the data.
-
 ---
-
 
 ## Improvements
 
@@ -77,11 +65,6 @@ MLR performed better, suggesting a mostly linear relationship in the data.
 - Hyperparameter tuning  
 - Feature selection  
 
-### General
-
-- Cross-validation to improve reliability  
-
----
 
 ## Conclusion
 
