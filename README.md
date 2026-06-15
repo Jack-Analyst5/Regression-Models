@@ -17,7 +17,6 @@ The study involves building predictive models using Multiple Linear Regression (
 ## Project Structure
 
 ## Visualisation:
---
 
 ### Random Forest Model
 rf_model.png
