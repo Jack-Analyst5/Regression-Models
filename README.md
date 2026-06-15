@@ -19,59 +19,26 @@ The study involves building predictive models using Multiple Linear Regression (
 ## Visualisation:
 --
 
-![RF Model](rf_model.png)
-
+### Random Forest Model
+rf_model.png
 *Figure 1: Random Forest Predictions vs Actual Values*
 
-
+### Multiple Linear Regression Model
+mlr_model.png
+*Figure 2: Multiple Linear Regression Predictions vs Actual Values*
 
 
 ## Methodology
 
-Two models were trained:
+The methodology involves training two models, Multiple Linear Regression (MLR) and Random Forest (RF), to make predictions. Their performance is evaluated using Root Mean Squared Error (RMSE) and by visually comparing predicted values with actual values.
 
-- Multiple Linear Regression (MLR)  
-- Random Forest (RF)  
-
-Evaluation metrics:
-
-- Root Mean Squared Error (RMSE)  
-- Visual comparison of predicted vs actual values  
-
----
 
 ## Results
 
-- MLR RMSE: 63,952  
-- RF RMSE: 72,013  
+The results show that the Multiple Linear Regression (MLR) model achieved an RMSE of 63,952, while the Random Forest (RF) model recorded a higher RMSE of 72,013. This indicates that MLR performed better overall. Both models demonstrate a strong correlation between predicted and actual values; however, the MLR predictions are closer to the ideal perfect prediction line, suggesting higher accuracy. Based on a house valued at 600,000, the estimated prediction error is approximately 10.6% for MLR and around 12% for RF, further confirming that MLR provides more precise predictions in this case.
 
-Observations:
-
-- Both models show strong correlation between predicted and actual values  
-- MLR predictions are closer to the perfect prediction line  
-- Estimated prediction error (on a 600,000 house):
-  - MLR: ~10.6%  
-  - RF: ~12%  
-
-MLR performed better, suggesting a mostly linear relationship in the data.
----
-
-## Improvements
-
-### Multiple Linear Regression
-
-- Feature engineering (e.g., price per square foot)  
-- Outlier removal  
-- Multicollinearity checks  
-
-### Random Forest
-
-- Hyperparameter tuning  
-- Feature selection  
 
 
 ## Conclusion
 
-The Multiple Linear Regression model outperformed the Random Forest model on this dataset. The results indicate that the underlying relationships in the data are largely linear.
-
-Further improvements can be achieved through better feature engineering, tuning, and validation techniques.
+The results indicate that the Multiple Linear Regression (MLR) model outperformed the Random Forest (RF) model on this dataset, suggesting that the relationships between the variables are largely linear. While both models demonstrated reasonable predictive capability, MLR achieved better accuracy as reflected in its lower RMSE. Further improvements in model performance can be achieved through techniques such as feature engineering, outlier removal, and checking for multicollinearity in MLR, as well as hyperparameter tuning and feature selection in RF. Overall, refining these approaches can enhance the reliability and accuracy of the predictive models.
