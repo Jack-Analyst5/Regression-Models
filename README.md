@@ -19,7 +19,8 @@ The study involves building predictive models using Multiple Linear Regression (
 ## Visualisation:
 --
 
-<img src="images/RF model.png" width="500">
+images/rf_plot.png
+*Figure 1: Random Forest Predictions vs Actual Values*
 
 
 ## Methodology
