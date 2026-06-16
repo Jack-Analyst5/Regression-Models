@@ -28,3 +28,22 @@ Overall, the results gave me valuable insight into how model selection impacts p
 This project reinforced the importance of experimenting with different analytical approaches to better understand data and improve predictive performance. While both models showed potential, the differences in their results highlighted how the structure of the data can influence which method performs best.
 From a learning perspective, this experience helped me appreciate the full process of building and evaluating models—from preparing the data to interpreting the results. It also showed me that achieving better outcomes often requires continuous refinement, such as improving data quality, selecting meaningful features, and tuning models carefully.
 Overall, this project was a valuable step in my development as a Data Analyst. It strengthened not only my technical skills, but also my ability to think critically about data, assess model performance, and communicate insights in a clear and meaningful way.
+
+---
+
+[Predictive Analytic Models]()
+
+## Overview
+This project presents a credit risk modelling initiative focused on classifying loan applications into approved (low-risk) and defaulted (high-risk) categories using machine learning techniques.
+
+## Goal
+The objective is to predict loan status from borrower data, using a binary classification approach where Class 0 represents low-risk loans and Class 1 represents high-risk loans; the dataset contains approximately 45,000 records with a 22% class imbalance toward high-risk cases.
+
+## Methodology
+The analysis uses borrower demographics, financial leverage, and credit history data, with exploratory analysis showing an average loan amount of $9,583, a mean interest rate of 11.0%, right-skewed loan distributions, and normally distributed credit scores; feature correlations highlight loan-to-income ratio and interest rate as key predictors, and three models—Logistic Regression, Gradient Boosting, and Random Forest—were evaluated.
+
+## Results
+Random Forest achieved the best performance with 92.87% accuracy, outperforming other models and delivering strong precision, recall, and F1-scores, with a confusion matrix showing high true negatives (6,797) and true positives (1,561), along with relatively low false positives (193) and false negatives (449).
+
+## Conclusion
+The model effectively predicts loan risk with high accuracy, supporting loss prevention through strong recall and ensuring fair approvals through high precision, providing a solid foundation for data-driven lending decisions and automated loan evaluation systems.
