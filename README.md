@@ -31,7 +31,7 @@ Overall, this project was a valuable step in my development as a Data Analyst. I
 
 ---
 
-[Predictive Analytic Models]()
+[Predictive Analytic Models](https://github.com/Jack-Analyst5/Machine-Learning-Regression-Models/blob/main/Mission%205%20(2).ipynb)
 
 ## Overview
 This project presents a credit risk modelling initiative focused on classifying loan applications into approved (low-risk) and defaulted (high-risk) categories using machine learning techniques.
