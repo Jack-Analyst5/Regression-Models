@@ -1,6 +1,6 @@
 # Machine Learning:Regression Models
 
- House Price Prediction: MLR vs Random Forest
+ [House Price Prediction: MLR vs Random Forest](https://github.com/Jack-Analyst5/Machine-Learning-Regression-Models/blob/main/Mission%204_%20Predicting%20House%20Price%20with%20Multiple%20Linear%20Regression%20%20(5).ipynb)
 
 ## Overview
 
@@ -13,18 +13,6 @@ This project compares the performance of two regression models, Multiple Linear 
 The study involves building predictive models using Multiple Linear Regression (MLR) and Random Forest (RF) techniques. The performance of these models is then evaluated using Root Mean Squared Error (RMSE) as the main metric. After assessing each model, their accuracy levels are compared to determine which performs better. Finally, different methods and approaches are identified to further improve overall model performance.
 
 ---
-
-## Project Structure
-
-## Visualisation
-
-### Random Forest Model
-![RF Plot](rf_model.png)
-*Figure 1: Random Forest Predictions vs Actual Values*
-
-### Multiple Linear Regression Model
-![MLR Plot](mlr_model.png)
-*Figure 2: Multiple Linear Regression Predictions vs Actual Values*
 
 ## Methodology
 
