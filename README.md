@@ -32,11 +32,11 @@ The methodology involves training two models, Multiple Linear Regression (MLR) a
 
 
 ## Results
-
-The results show that the Multiple Linear Regression (MLR) model achieved an RMSE of 63,952, while the Random Forest (RF) model recorded a higher RMSE of 72,013. This indicates that MLR performed better overall. Both models demonstrate a strong correlation between predicted and actual values; however, the MLR predictions are closer to the ideal perfect prediction line, suggesting higher accuracy. Based on a house valued at 600,000, the estimated prediction error is approximately 10.6% for MLR and around 12% for RF, further confirming that MLR provides more precise predictions in this case.
-
-
+Through this project, I explored different modelling approaches to better understand how well they could capture patterns within the data. Both models were able to generate predictions that aligned reasonably well with actual outcomes, demonstrating their ability to learn from the dataset.
+However, one model stood out with more consistent and reliable predictions. Its results were closer to the expected trend, which suggests that it was more effective in capturing the underlying relationships in the data. This comparison allowed me to see firsthand how different approaches can produce varying levels of accuracy, even when working with the same dataset.
+Overall, the results gave me valuable insight into how model selection impacts performance and how important it is to evaluate models beyond just surface-level outcomes.
 
 ## Conclusion
-
-The results indicate that the Multiple Linear Regression (MLR) model outperformed the Random Forest (RF) model on this dataset, suggesting that the relationships between the variables are largely linear. While both models demonstrated reasonable predictive capability, MLR achieved better accuracy as reflected in its lower RMSE. Further improvements in model performance can be achieved through techniques such as feature engineering, outlier removal, and checking for multicollinearity in MLR, as well as hyperparameter tuning and feature selection in RF. Overall, refining these approaches can enhance the reliability and accuracy of the predictive models.
+This project reinforced the importance of experimenting with different analytical approaches to better understand data and improve predictive performance. While both models showed potential, the differences in their results highlighted how the structure of the data can influence which method performs best.
+From a learning perspective, this experience helped me appreciate the full process of building and evaluating models—from preparing the data to interpreting the results. It also showed me that achieving better outcomes often requires continuous refinement, such as improving data quality, selecting meaningful features, and tuning models carefully.
+Overall, this project was a valuable step in my development as a Data Analyst. It strengthened not only my technical skills, but also my ability to think critically about data, assess model performance, and communicate insights in a clear and meaningful way.
